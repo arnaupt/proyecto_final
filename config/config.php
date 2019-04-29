@@ -10,7 +10,7 @@ define('INDEX_CONTROLLER', 'home');
 define('INDEX_ACTION', 'index');
 
 define('BASE_DOMAIN', 'localhost');
-define('BASE_DIR_URL', '/mvc-plantilla/');
-define('BASE_DOMAIN_DIR_URL', 'http://localhost/mvc-plantilla/');
+define('BASE_DIR_URL', '/proyecto_final/');
+define('BASE_DOMAIN_DIR_URL', 'http://localhost/proyecto_final/');
 
 
