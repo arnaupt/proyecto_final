@@ -1,0 +1,330 @@
+body,h1,h4,p {
+		color:#3e3e3e;
+		font-family:'Open sans',sans-serif;
+		font-size:18px;
+		line-height:1.5;
+		margin:0;
+		padding:0;
+		text-decoration:none
+}
+
+input{
+		background-color:#f5f5f5;
+		border:1px solid #ddd
+
+		}
+
+input,label{
+	color:#3e3e3e;
+	font-family:'Open Sans',sans-serif;
+	font-size:14px
+	}
+li,ul{
+	margin:0;
+	padding:0
+	}
+
+a,a:visited{
+	color:#649E64;
+	font-weight:700;
+	text-decoration:none
+	}
+a img{
+	border:none
+	}
+
+body{
+	background-color:#fff
+	}
+
+.wrap{
+	margin:0 auto;
+	width:1140px
+	}
+#header{
+	background-position:top center!important;
+	margin:0 auto;
+	min-height:60px;
+	overflow:hidden;
+	width:1140px
+}
+#title-area{
+	float:left;
+	overflow:hidden;
+	width:25%
+	}
+
+#title{
+	font-family:'Open Sans',sans-serif;
+	font-size:30px;
+	font-weight:700;
+	line-height:1;
+	margin:15px 0 10px;
+	text-transform:uppercase
+}
+#title a{
+	color:#3e3e3e;
+	text-decoration:none
+}
+#header .widget-area{
+	float:right;
+	width:75%
+	}
+#header .menu{
+	clear:both;
+	color:#3e3e3e;
+	font-size:13px;
+	margin:0 auto;
+	overflow:hidden;
+	width:100%
+}
+#header .menu{
+	float:right;
+	width:auto
+	}
+
+#header .menu li{
+	float:left;
+	list-style-type:none
+	}
+#header .menu a{
+	color:#000;
+	display:block;
+	letter-spacing:2px;
+	padding:20px;
+	position:relative;
+	text-decoration:none;
+	text-transform:uppercase
+}
+#inner{
+	clear:both;
+	margin:0 auto;
+	overflow:hidden;
+	padding:40px 0
+	}
+#page-title{
+	background-color:#f5f5f5;
+	border-bottom:1px solid #e4e4e4;
+	border-top:1px solid #e4e4e4;
+	clear:both;margin:0 auto;
+	overflow:hidden;
+	padding:30px 0
+}
+
+#page-title p{
+	font-size:48px;
+	font-weight:700;
+	line-height:1.5;
+	margin:0
+}
+
+#content-sidebar-wrap{
+	float:left;
+	width:100%
+}
+
+#content{
+	float:left;
+	width:740px
+	}
+.hentry{
+	margin:0 0 50px}
+.entry-content{
+	overflow:hidden}
+
+.entry-content p{
+	margin:0 0 30px}
+
+h1,h4{
+	font-family:'Open Sans',sans-serif;
+	font-weight:700;
+	line-height:1.25;
+	margin:0 0 10px}
+
+h1{font-size:30px}
+h4{font-size:20px}
+.widget-area h4{
+	font-size:14px;
+	letter-spacing:2px;
+	text-transform:uppercase}
+.widget-area h4 a{
+	color:#3e3e3e;
+	text-decoration:none}
+.post-info{
+	clear:both;
+	color:#999;
+	font-size:12px;
+	text-transform:uppercase}
+.post-info{
+	margin:0 0 25px}
+.post-info a,.post-info a:visited{
+	color:#999;
+	font-weight:400}
+
+img{height:auto;max-width:100%}
+.aligncenter{display:block;margin:0 auto 20px}
+.sidebar{display:inline;float:right;font-size:16px;width:300px}
+#sidebar a,#sidebar a:visited{color:#3e3e3e}
+.sidebar .widget{margin:0 0 40px}
+#sidebar ul li{
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/themes/minimum/images/list-sidebar.png)
+	no-repeat top left;
+	border-bottom:1px dotted #ddd;list-style-type:none;
+	margin:0 0 5px 2px;padding:1px 0 5px 14px;color:#bbb}
+#sidebar ul li a,#sidebar ul li a:visited{color:#bbb;font-weight:400}
+input[type="submit"]{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#3e3e3e;
+	border:none;
+	border-radius:5px;
+	color:#fff;
+	font-weight:700;
+	padding:10px 20px;
+	text-decoration:none}
+.s{-moz-box-shadow:0 0 5px #ccc inset;
+	-webkit-box-shadow:0 0 5px #ccc inset;
+	background-color:#fff;
+	border:1px solid #ccc;
+	box-shadow:0 0 5px #ccc inset;
+	box-sizing:border-box;
+	color:#999;
+	font-family:'Open Sans',sans-serif;
+	font-size:12px;
+	padding:15px;
+	text-transform:uppercase;width:100%
+	}
+.searchsubmit{display:none}
+#page-title span{display:block;font-size:22px;line-height:1.4;width:80%;color:#bbb}
+#title-area p#title a{
+	width:40px;
+	height:40px;
+	display:block;
+	text-indent:-9999px;
+	background:transparent url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/themes/minimum/images/logo.png) no-repeat}
+#page-title strong a{color:#3e3e3e}
+#page-title a{color:#649E64}
+@media only screen and (max-width:1200px){.wrap,#header{width:960px}#content{width:560px}#page-title span{width:100%;color:#bbb}}
+@media only screen and (max-width:1023px){body{font-size:16px;margin:0 auto;width:100%}
+p{font-size:16px}
+.content-sidebar #content,.sidebar,.wrap,#content-sidebar-wrap,#header,#header ul.menu,#header .widget-area,#title-area{width:100%}
+#header ul.menu,#title,#title-area{float:none;text-align:center}
+#wrap{margin:0}
+#content,#header .widget-area,#title,#title a,#title-area{padding:0}
+#header{background-size:contain!important}
+#title{margin:10px 0 0}
+#header ul.menu li{display:inline-block;float:none;line-height:1}
+#header .menu a{border:none;padding:5px 10px}
+#page-title{padding:10px 0;margin-top:15px}
+#page-title p{font-size:24px;text-align:center}
+#inner{padding:20px}
+#title-area p#title a{
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/themes/minimum/images/logo.png) no-repeat scroll center 0 transparent;
+	display:block;
+	height:40px;text-indent:-9999px;width:100%;margin-bottom:10px}
+#page-title span{padding:0 20px;text-align:center;width:90%;font-size:16px}
+#sidebar{display:none}
+}
+@font-face{
+	font-family:"Genericons";
+	src:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/jetpack/_inc/genericons/genericons/Genericons.eot);
+	src:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/jetpack/_inc/genericons/genericons/Genericons.eot) format("embedded-opentype");
+	font-weight:400;font-style:normal}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	@font-face{
+		font-family:"Genericons";
+		src:url("https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/jetpack/_inc/genericons/genericons/Genericons.svg") format("svg")}}
+
+.genericon{
+	font-size:16px;
+	vertical-align:top;
+	text-align:center;
+	display:inline-block;
+	font-family:"Genericons";
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	line-height:1;
+	text-decoration:inherit;
+	text-transform:none;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-font-smoothing:antialiased;speak:none}
+.genericon-facebook:before{content:"\f203"}
+.genericon-linkedin:before{content:"\f207"}
+.genericon-twitter:before{content:"\f202"}
+.genericon-user:before{content:"\f304"}
+.ts-fab-wrapper{padding:2em 0;clear:both}
+.ts-fab-wrapper a{text-decoration:none!important}
+.ts-fab-wrapper img{border:none!important;padding:0!important}
+.ts-fab-list{overflow:hidden;padding:0 0 0 0!important;margin:0!important}
+.ts-fab-list li{display:block;float:left;list-style:none;margin:0 5px 0 0!important;padding:0!important;background:none!important}
+.ts-fab-list li:before{display:none!important}
+.ts-fab-list li a{display:block;line-height:16px;height:16px;padding:8px;background-color:#fbfbf9;border:1px solid #f2f2ef;
+	border-bottom:none!important;text-decoration:none;font-size:13px;color:#404040;font-weight:700;outline:none;text-shadow:none!important;
+	box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box}
+.ts-fab-list li.active a{background-color:#f2f2ef;border:1px solid #f2f2ef;color:#252525}
+.ts-fab-widget .ts-fab-list li a span.ts-fab-tab-text,.ts-fab-icons-only .ts-fab-list li a span.ts-fab-tab-text{display:none}
+.ts-fab-tab{visibility:hidden;height:0;width:0;border:none;overflow:hidden;padding:0}
+.ts-fab-tab.visible-tab{visibility:visible;min-height:64px;border:1px solid #f2f2ef;padding:12px;background:#f2f2ef;color:#404040;
+	width:auto;height:auto;box-sizing:content-box;-moz-box-sizing:content-box}
+.ts-fab-tab:after{content:'';display:table;clear:both}
+.ts-fab-tab:first-child{display:block}
+.ts-fab-widget .ts-fab-tab.visible-tab{padding:8px}
+.ts-fab-avatar{display:block;float:left;width:64px;height:64px}
+.ts-fab-avatar img{display:block;border:none!important}
+.ts-fab-text{margin-left:76px;line-height:1.5}
+.ts-fab-header{margin-bottom:10px}
+.ts-fab-text h4{clear:none;font-size:18px;line-height:1!important;font-weight:700;margin:0 0 0.2em!important;line-height:1;padding:0}
+.ts-fab-description{font-size:12px}
+.ts-fab-twitter-tweet{line-height:1.2;margin-bottom:.75em}
+
+body,html{min-height:100%;height:auto}
+.stb{
+	position:fixed;z-index:999999;-webkit-box-shadow:0 0 10px 1px #333;-moz-box-shadow:0 0 10px 1px #333;
+	box-shadow:0 0 10px 1px #333;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+	background:#fff;line-height:normal;padding:25px}
+.stb.stb-bottom-right{bottom:0;right:0;top:auto;left:auto}
+.stb-content>:first-child{margin-top:0;padding-top:0}
+.stb-content>:last-child{margin-bottom:0;padding-bottom:0}
+.stb-close{position:absolute;right:0;top:0;text-align:center;padding:6px;background:0 0;border:0;-webkit-appearance:none;font-size:36px;
+	font-weight:700;line-height:20px;color:#000;opacity:.5;filter:alpha(opacity=50)}
+#stb-overlay{position:fixed;background:rgba(0,0,0,.65);width:100%;height:100%;z-index:99999;display:none;top:0;left:0}
+#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden}
+#cboxOverlay{position:fixed;width:100%;height:100%}
+#cboxMiddleLeft,#cboxBottomLeft{clear:left}
+#cboxContent{position:relative;overflow:hidden}
+#cboxTitle{margin:0}
+#cboxOverlay{background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/overlay.png) 0 0 repeat}
+#colorbox{font:12px Tahoma,Arial,sans-serif}
+#cboxTopLeft{width:21px;height:21px;
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -100px 0 no-repeat}
+#cboxTopRight{width:21px;height:21px;
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -129px 0 no-repeat}
+#cboxBottomLeft{width:21px;height:21px;
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -100px -29px no-repeat}
+#cboxBottomRight{width:21px;height:21px;
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -129px -29px no-repeat}
+#cboxMiddleLeft{width:21px;
+	background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) left top repeat-y}
+#cboxMiddleRight{width:21px;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) right top repeat-y}
+#cboxTopCenter{height:21px;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/border.png) 0 0 repeat-x}
+#cboxBottomCenter{
+		height:21px;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/border.png) 0 -29px repeat-x}
+#cboxContent{background:#fff}
+#cboxTitle{position:absolute;bottom:4px;left:0;text-align:center;width:100%;color:#949494}
+#cboxCurrent{position:absolute;bottom:4px;left:58px;color:#949494}
+#cboxSlideshow{position:absolute;bottom:4px;right:30px;color:#0092ef}
+#cboxPrevious{position:absolute;bottom:0;left:0;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -75px 0 no-repeat;
+		width:25px;height:25px;text-indent:-9999px}
+#cboxNext{position:absolute;bottom:0;left:27px;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -50px 0 no-repeat;
+		width:25px;height:25px;text-indent:-9999px}
+#cboxClose{position:absolute;bottom:0;right:0;
+		background:url(https://algomasquetraducir-b4fd.kxcdn.com/wp-content/plugins/smart-youtube/themes/theme1/images/controls.png) -25px 0 no-repeat;
+		width:25px;height:25px;text-indent:-9999px}
+.ssbp-wrap *,.ssbp-wrap *:before,.ssbp-wrap *:after{box-sizing:border-box}
+.ssbp-text{display:none}
